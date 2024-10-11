@@ -1,38 +1,60 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <title>afolabi page</title>
-    <meta name="description" content="this is my web page" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Afolabi Page</title>
+    <meta name="description" content="This is my web page" />
+    <style>
+      body {
+        background-color: green;
+      }
+      p {
+        color: yellow;
+        font-size: 100px;
+      }
+    </style>
+    <link href="./index.css" rel="stylesheet" />
   </head>
-  <a target="_blank" href="https://github.com/adelani007">
-    click to go to my gitub account</a
-  >
+
   <body>
-    <header>
-        <nav>
-            <a href="./index.html">HOME</a>
-            <a href="./about.html">ABOUT</a>
-            <a href="./contact.html">CONTACT</a>
-            <a>HELP</a>
-        </nav>
-    </header>
-    <h1 class="hammed" id="top">Lorem ipsum dolor sit amet.</h1>
-    <h2>
+    <nav id="navbar">
+      <a class="navlink" href="./index.html">HOME</a>
+      <a class="navlink" href="./about.html">ABOUT</a>
+      <a class="navlink" href="./contact.html">CONTACT</a>
+      <a class="navlink" href="#">HELP</a>
+      <a target="_blank" href="https://github.com/adelani007"
+        ><button id="estimate">estimate a project</button></a
+      >
+    </nav>
+
+    <a target="_blank" href="https://github.com/adelani007"
+      >click to go to my github account</a
+    >
+
+    <h1 class="hammed" style="color: aqua" id="top">
+      Lorem ipsum dolor sit amet.
+    </h1>
+    <h2 style="color: blueviolet; font-size: 50px; background-color: black">
       Lorem ipsum dolor<br />
       sit amet consectetur.
     </h2>
     <h3>Lorem ipsum dolor sit amet <br />consectetur adipisicing.</h3>
     <h4>Lorem ipsum dolor<del>not smart</del> consectetur adipisicing elit.</h4>
+
+    <!-- Commented out sections can be re-enabled if needed -->
     <!-- <h5>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus!</h5> -->
     <h6>
-      Lorem ipsum dolor sit,<i>it should be better</i> amet consectetur
+      Lorem ipsum dolor sit, <i>it should be better</i> amet consectetur
       adipisicing elit. Laborum, reprehenderit!
     </h6>
-    <!-- this is a comment -->
-    <p>this is just the beginning <b>lets get started</b></p>
-    <small>whats the function</small>
+
+    <p style="color: red">
+      This is just the beginning <b>Let's get started</b>
+    </p>
+    <small>What's the function</small>
     <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
+      ayo Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
       asperiores ratione corporis nostrum nisi recusandae enim quos iure. Rem,
       porro?
     </p>
@@ -41,74 +63,74 @@
       exercitationem quo deleniti accusantium, cum velit pariatur rem natus
       odio, ipsam dolor quasi ipsum perferendis itaque?
     </p>
+
     <img
       height="200px"
       width="200px"
-      alt="this is an image"
+      alt="Image from Unsplash"
       src="https://images.unsplash.com/photo-1728327509887-685faea5fefa?q=80&w=1965&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     />
-    <img height="200px" width="200px" src="./images/im2.avif" />
-    <img height="200" width="200" src="./images/im1.avif" />
-    <img
-    heihht="200px"
-    width="200px"
-    src="./images/im3.avif"/>
-    <br />
-    <br />
-    <button>click to go to top</button>
-    <a href="#top"><button>click to go to top</button> </a>
-    <a href="./about.html">click to go to about page</a>
-    <a href=./ref.html>click to go to the ref page</a>
+    <img height="200px" width="200px" alt="Image 2" src="./images/im2.avif" />
+    <img height="200px" width="200px" alt="Image 1" src="./images/im1.avif" />
+    <img height="200px" width="200px" alt="Image 3" src="./images/im3.avif" />
+
+    <br /><br />
+
+    <!-- Button functionality -->
+    <a href="#top"><button>Click to go to top</button></a>
+
+    <a href="./about.html">Click to go to about page</a>
+    <a href="./ref.html">Click to go to the ref page</a>
+
+    <!-- Ordered and Unordered lists -->
     <div>
-       <ol type="I">
-      <li>book </li>
-      <li>store</li>
-      <li>quest</li>
-    </ol>
+      <ol type="I">
+        <li>Book</li>
+        <li>Store</li>
+        <li>Quest</li>
+      </ol>
     </div>
+
     <div>
-<ul>
-      <li>cast</li>
-      <li>rep</li>
-      <li>ox</li>
-    </ul>
+      <ul>
+        <li>Cast</li>
+        <li>Rep</li>
+        <li>Ox</li>
+      </ul>
     </div>
+
+    <!-- Table structure -->
     <div>
       <table border="1">
         <tr>
           <th>HTML</th>
-          <th>CSS </th>
-          <th> JAVASCRIPT</th>
-          <th>Nodejs</th>
+          <th>CSS</th>
+          <th>JAVASCRIPT</th>
+          <th>Node.js</th>
         </tr>
         <tr>
-          <td>Paragragh</td>
+          <td>Paragraph</td>
           <td>Selectors</td>
-          <td>Dom</td>
-
+          <td>DOM</td>
         </tr>
         <tr>
-          <td>ELECT</td>
-          <td>PASS</td>
-          <td>SCROLL</td>
+          <td>Elect</td>
+          <td>Pass</td>
+          <td>Scroll</td>
           <td>Exempt</td>
         </tr>
         <tr>
-           <td>ELECT</td>
-          <td>PASS</td>
-          <td>SCROLL</td>
+          <td>Elect</td>
+          <td>Pass</td>
+          <td>Scroll</td>
         </tr>
         <tr>
-           <td>ELECT</td>
-          <td>PASS</td>
-          <td>SCROLL</td>
+          <td>Elect</td>
+          <td>Pass</td>
+          <td>Scroll</td>
           <td>Exempt</td>
         </tr>
       </table>
     </div>
-    <!-- whats this for -->
-     <h>meanim</h>
-     
-     
   </body>
 </html>
