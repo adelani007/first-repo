@@ -10,6 +10,23 @@ p,h3{
 #navbar {
   background-color: darkgoldenrod;
   padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.right {
+  display: flex;
+  align-items: center;
+  gap: 8rem;
+ 
+}
+.right > div {
+  display: flex;
+  gap: 20px;
+}
+.logo {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
 }
 .navlink {
   color: white;
@@ -18,7 +35,6 @@ body {
   margin: 10px;
   border: 10px solid black;
   padding: 50px;
-  cursor: url("./images/star-4pt-round.png"), pointer;
 }
 #estimate {
   border: 20px;
@@ -29,4 +45,62 @@ body {
   text-transform: uppercase;
   font-weight: 600;
   cursor: url("./images/star-4pt-round.png"), pointer;
+}
+.box {
+  color: green;
+}
+.career {
+  color: black;
+}
+#Click:hover {
+  color: white;
+  text-decoration: underline;
+  background-color: black;
+}
+
+#text {
+  text-align: left;
+  line-height: 40px;
+  word-spacing: 10px;
+  letter-spacing: 5px;
+}
+.box1 {
+  background-color: red;
+  height: 3rem;
+  width: 3rem;
+  /* display: inline-block; */
+}
+.box2 {
+  background-color: yellow;
+  height: 3rem;
+  width: 3rem;
+  /* display: inline-block; */
+}
+.box3 {
+  background-color: blueviolet;
+  height: 3rem;
+  /* display:inline-block ; */
+  width: 3rem;
+}
+.flexbox {
+  background-color: aqua;
+  display: flex;
+  flex-direction: row;
+  width: 30vw;
+  height: 100vh;
+  justify-content: space-evenly;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: 20px;
+}
+.flexbox1 {
+  display: flex;
+  background-color: green;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: space-evenly;
+  justify-content: start;
+  align-items: center;
+  gap: 20px;
 }
